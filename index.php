@@ -1,5 +1,8 @@
 <?php
-    echo $_GET['url'];
+    
+    
+    $start = require_once('core/start.php');
+    $start->run();
 /* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
